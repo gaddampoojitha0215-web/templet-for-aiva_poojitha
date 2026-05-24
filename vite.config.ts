@@ -4,6 +4,7 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/templet-for-aiva_poojitha/",
   plugins: [react()],
   resolve: {
     alias: {
